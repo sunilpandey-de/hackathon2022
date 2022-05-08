@@ -1,5 +1,3 @@
-#-*- coding: utf-8 -*-
-
 from mechanicalsoup import StatefulBrowser
 from re import findall
 
