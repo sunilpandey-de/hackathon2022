@@ -81,17 +81,6 @@ try:
         _.Google()
         if urls != []:
             for url in list(set(urls)):
-                print('- {}'.format(url))
-        else:
-            print('\nNo Url Found !\n')
-    else:
-        par.print_help()
-    if arg.search_keyword != None:
-        _ = crawl(arg.search_keyword)
-        _.Bing()
-        _.Google()
-        if urls != []:
-            for url in list(set(urls)):
                 urlval = '{}\n'.format(url)
                 # Open a file with access mode 'a'
                 file_object = open('sample.txt', 'a')
